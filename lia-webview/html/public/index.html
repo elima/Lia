@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <script data-main="org.eventdance.lia/public/lib/main" src="org.eventdance.lia/public/lib/require/require.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="org.eventdance.lia/public/lib/jquery-mobile/css/jquery-mobile.min.css" />
+
+  <script src="transport/evdWebTransport.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+  <div data-role="page">
+    <div data-role="header">
+      <h1></h1>
+    </div>
+
+    <div data-role="content">
+
+      <h1>Public</h1>
+      <div id="login">
+        <form method="post" action="javascript: signin()">
+          User: <input id="user" type="text"/>
+          <br/>
+          Pass: <input id="passw" type="password"/>
+          <br/>
+          <input type="submit" value="Login" />
+      </div>
+
+    </div><!-- /content -->
+
+    <div data-role="footer">
+      <h4></h4>
+    </div><!-- /footer -->
+  </div><!-- /page -->
+
+</body>
+</html>
